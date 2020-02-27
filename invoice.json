@@ -1,0 +1,394 @@
+{
+  "currentStatus": "unknown",
+  "stateCode": 0,
+  "checkCode": 0,
+  "operationNature": "string",
+  "paymentType": "inCash",
+  "codeModel": 0,
+  "serie": 0,
+  "number": 0,
+  "issuedOn": "2019-11-26T00:23:55.652Z",
+  "operationOn": "2019-11-26T00:23:55.652Z",
+  "operationType": "incoming",
+  "destination": "international_Operation",
+  "cityCode": 0,
+  "printType": "none",
+  "issueType": "cONTINGENCIA_OFF_LINE_NFC_E",
+  "checkCodeDigit": 0,
+  "environmentType": "production",
+  "purposeType": "devolution",
+  "consumerType": "normal",
+  "presenceType": "none",
+  "processType": "ownSoftware",
+  "invoiceVersion": "string",
+  "xmlVersion": "string",
+  "contingencyOn": "2019-11-26T00:23:55.652Z",
+  "contingencyJustification": "string",
+  "issuer": {
+    "federalTaxNumber": 0,
+    "name": "string",
+    "tradeName": "string",
+    "address": {
+      "phone": "string",
+      "state": "string",
+      "city": {
+        "code": "string",
+        "name": "string"
+      },
+      "district": "string",
+      "additionalInformation": "string",
+      "streetSuffix": "string",
+      "street": "string",
+      "number": "string",
+      "postalCode": "string",
+      "country": "string",
+      "countryBacenCode": "string"
+    },
+    "stateTaxNumber": "string",
+    "codeTaxRegime": "national_Simple",
+    "cnae": 0,
+    "im": "string",
+    "iest": 0,
+    "type": "undefined"
+  },
+  "buyer": {
+    "federalTaxNumber": 0,
+    "name": "string",
+    "address": {
+      "phone": "string",
+      "state": "string",
+      "city": {
+        "code": "string",
+        "name": "string"
+      },
+      "district": "string",
+      "additionalInformation": "string",
+      "streetSuffix": "string",
+      "street": "string",
+      "number": "string",
+      "postalCode": "string",
+      "country": "string",
+      "countryBacenCode": "string"
+    },
+    "stateTaxNumber": "string",
+    "stateTaxNumberIndicator": 0,
+    "email": "string",
+    "type": "undefined"
+  },
+  "totals": {
+    "icms": {
+      "baseTax": 0,
+      "icmsAmount": 0,
+      "icmsExemptAmount": 0,
+      "stCalculationBasisAmount": 0,
+      "stAmount": 0,
+      "productAmount": 0,
+      "freightAmount": 0,
+      "insuranceAmount": 0,
+      "discountAmount": 0,
+      "iiAmount": 0,
+      "ipiAmount": 0,
+      "pisAmount": 0,
+      "cofinsAmount": 0,
+      "othersAmount": 0,
+      "invoiceAmount": 0,
+      "fcpufDestinationAmount": 0,
+      "icmsufDestinationAmount": 0,
+      "icmsufSenderAmount": 0,
+      "federalTaxesAmount": 0,
+      "fcpAmount": 0,
+      "fcpstAmount": 0,
+      "fcpstRetAmount": 0,
+      "ipiDevolAmount": 0
+    },
+    "issqn": {
+      "totalServiceNotTaxedICMS": 0,
+      "baseRateISS": 0,
+      "totalISS": 0,
+      "valueServicePIS": 0,
+      "valueServiceCOFINS": 0,
+      "provisionService": "2019-11-26T00:23:55.652Z",
+      "deductionReductionBC": 0,
+      "valueOtherRetention": 0,
+      "discountUnconditional": 0,
+      "discountConditioning": 0,
+      "totalRetentionISS": 0,
+      "codeTaxRegime": 0
+    }
+  },
+  "transport": {
+    "freightModality": 0,
+    "transportGroup": {
+      "cityName": "string",
+      "federalTaxNumber": "string",
+      "cpf": "string",
+      "name": "string",
+      "stateTaxNumber": "string",
+      "fullAddress": "string",
+      "state": "string",
+      "transportRetention": "string"
+    },
+    "reboque": {
+      "plate": "string",
+      "uf": "string",
+      "rntc": "string",
+      "wagon": "string",
+      "ferry": "string"
+    },
+    "volume": {
+      "volumeQuantity": 0,
+      "species": "string",
+      "brand": "string",
+      "volumeNumeration": "string",
+      "netWeight": 0,
+      "grossWeight": 0
+    },
+    "transportVehicle": {
+      "plate": "string",
+      "state": "string",
+      "rntc": "string"
+    },
+    "sealNumber": "string",
+    "transpRate": {
+      "serviceAmount": 0,
+      "bcRetentionAmount": 0,
+      "icmsRetentionRate": 0,
+      "icmsRetentionAmount": 0,
+      "cfop": 0,
+      "cityGeneratorFactCode": 0
+    }
+  },
+  "additionalInformation": {
+    "fisco": "string",
+    "taxpayer": "string",
+    "xmlAuthorized": 0,
+    "effort": "string",
+    "order": "string",
+    "contract": "string",
+    "taxDocumentsReference": [
+      {
+        "taxCouponInformation": {
+          "modelDocumentFiscal": "string",
+          "orderECF": "string",
+          "orderCountOperation": 0
+        },
+        "documentInvoiceReference": {
+          "state": 0,
+          "yearMonth": "string",
+          "federalTaxNumber": "string",
+          "model": "string",
+          "series": "string",
+          "number": "string"
+        },
+        "accessKey": "string"
+      }
+    ],
+    "taxpayerComments": [
+      {
+        "field": "string",
+        "text": "string"
+      }
+    ],
+    "referencedProcess": [
+      {
+        "identifierConcessory": "string",
+        "identifierOrigin": 0
+      }
+    ]
+  },
+  "protocol": {
+    "id": "string",
+    "environmentType": "production",
+    "applicationVersion": "string",
+    "accessKey": "string",
+    "receiptOn": "2019-11-26T00:23:55.652Z",
+    "protocolNumber": "string",
+    "validatorDigit": "string",
+    "statusCode": 0,
+    "description": "string",
+    "signature": "string"
+  },
+  "items": [
+    {
+      "code": "string",
+      "codeGTIN": "string",
+      "description": "string",
+      "ncm": "string",
+      "extipi": "string",
+      "cfop": 0,
+      "unit": "string",
+      "quantity": 0,
+      "unitAmount": 0,
+      "totalAmount": 0,
+      "eanTaxableCode": "string",
+      "unitTax": "string",
+      "quantityTax": 0,
+      "taxUnitAmount": 0,
+      "freightAmount": 0,
+      "insuranceAmount": 0,
+      "discountAmount": 0,
+      "othersAmount": 0,
+      "totalIndicator": true,
+      "cest": "string",
+      "tax": {
+        "totalTax": 0,
+        "icms": {
+          "origin": "string",
+          "cst": "string",
+          "baseTaxModality": "string",
+          "baseTax": 0,
+          "baseTaxSTModality": "string",
+          "baseTaxSTReduction": 0,
+          "baseTaxSTAmount": 0,
+          "baseTaxReduction": 0,
+          "stRate": 0,
+          "stAmount": 0,
+          "stMarginAmount": 0,
+          "csosn": "string",
+          "rate": 0,
+          "amount": 0,
+          "snCreditRate": "string",
+          "snCreditAmount": "string",
+          "stMarginAddedAmount": "string",
+          "stRetentionAmount": "string",
+          "baseSTRetentionAmount": "string",
+          "baseTaxOperationPercentual": "string",
+          "ufst": "string",
+          "amountSTUnfounded": 0,
+          "amountSTReason": "string",
+          "baseSNRetentionAmount": "string",
+          "snRetentionAmount": "string",
+          "amountOperation": "string",
+          "percentualDeferment": "string",
+          "baseDeferred": "string",
+          "fcpRate": 0,
+          "fcpAmount": 0,
+          "fcpstRate": 0,
+          "fcpstAmount": 0,
+          "fcpstRetRate": 0,
+          "fcpstRetAmount": 0,
+          "bcfcpstAmount": 0,
+          "finalConsumerRate": 0,
+          "bcstRetIssuerAmount": 0,
+          "stRetIssuerAmout": 0,
+          "bcstBuyerAmount": 0,
+          "stBuyerAmout": 0,
+          "substituteAmount": 0
+        },
+        "ipi": {
+          "classification": "string",
+          "producerCNPJ": "string",
+          "stampCode": "string",
+          "stampQuantity": 0,
+          "classificationCode": "string",
+          "cst": "string",
+          "base": "string",
+          "rate": 0,
+          "unitQuantity": 0,
+          "unitAmount": 0,
+          "amount": 0
+        },
+        "ii": {
+          "baseTax": "string",
+          "customsExpenditureAmount": "string",
+          "amount": 0,
+          "iofAmount": 0
+        },
+        "pis": {
+          "cst": "string",
+          "baseTax": 0,
+          "rate": 0,
+          "amount": 0,
+          "baseTaxProductQuantity": 0,
+          "productRate": 0
+        },
+        "cofins": {
+          "cst": "string",
+          "baseTax": 0,
+          "rate": 0,
+          "amount": 0,
+          "baseTaxProductQuantity": 0,
+          "productRate": 0
+        },
+        "icmsDestination": {
+          "vBCUFDest": 0,
+          "pFCPUFDest": 0,
+          "pICMSUFDest": 0,
+          "pICMSInter": 0,
+          "pICMSInterPart": 0,
+          "vFCPUFDest": 0,
+          "vICMSUFDest": 0,
+          "vICMSUFRemet": 0,
+          "vBCFCPUFDest": 0
+        }
+      },
+      "additionalInformation": "string",
+      "numberOrderBuy": "string",
+      "itemNumberOrderBuy": 0,
+      "medicineDetail": {
+        "maximumPrice": 0,
+        "anvisaCode": "string",
+        "batchId": "string",
+        "batchQuantity": 0,
+        "manufacturedOn": "2019-11-26T00:23:55.653Z",
+        "expireOn": "2019-11-26T00:23:55.653Z"
+      },
+      "fuel": {
+        "codeANP": "string",
+        "percentageNG": 0,
+        "descriptionANP": "string",
+        "percentageGLP": 0,
+        "percentageNGn": 0,
+        "percentageGNi": 0,
+        "startingAmount": 0,
+        "codif": "string",
+        "amountTemp": 0,
+        "stateBuyer": "string",
+        "cide": {
+          "bc": 0,
+          "rate": 0,
+          "cideAmount": 0
+        },
+        "pump": {
+          "spoutNumber": 0,
+          "number": 0,
+          "tankNumber": 0,
+          "beginningAmount": 0,
+          "endAmount": 0
+        }
+      }
+    }
+  ],
+  "billing": {
+    "bill": {
+      "number": "string",
+      "originalAmount": 0,
+      "discountAmount": 0,
+      "netAmount": 0
+    },
+    "duplicates": [
+      {
+        "duplicateNumber": "string",
+        "expirationOn": "2019-11-26T00:23:55.653Z",
+        "amount": "string"
+      }
+    ]
+  },
+  "payment": [
+    {
+      "paymentDetail": [
+        {
+          "method": "cash",
+          "amount": 0,
+          "card": {
+            "federalTaxNumber": "string",
+            "flag": "visa",
+            "authorization": "string",
+            "integrationPaymentType": "integrated"
+          }
+        }
+      ],
+      "payBack": 0
+    }
+  ]
+}
